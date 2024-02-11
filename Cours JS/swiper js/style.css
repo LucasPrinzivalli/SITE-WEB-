@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.swiper-slide {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    padding-left: 100px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+.subtitle {
+    letter-spacing: 3px;
+    font-size: 24px;
+    color: white;
+}
+
+.slide-2f {
+    background-image: url("./ADEMO.jpg");
+    background-size: cover;
+}
+
+.slide-2f {
+    background-image: url("./NOS.jpg");
+    background-size: cover;
+}
+
+.slide-cdeb {
+    background-image: url("./CONCERT\ PARIS.jpg");
+    background-size: cover;
+}
+
+.dark {
+    background-color: black;
+    transition: 0.3s;
+}
